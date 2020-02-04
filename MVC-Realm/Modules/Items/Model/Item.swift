@@ -17,8 +17,4 @@ class Item: Object {
         self.init()
         self.title = title
     }
-    
-    override class func primaryKey() -> String? {
-        return "id"
-    }
 }
