@@ -25,7 +25,7 @@ class ItemsViewController: UIViewController {
 // MARK: - View Input
 extension ItemsViewController: ItemsViewInput {
     func onViewLayout() {
-        print("View tells Controller it is has been setup")
+        print("View tells Controller it has been setup")
         itemsModel?.retrieveItems()
     }
     
